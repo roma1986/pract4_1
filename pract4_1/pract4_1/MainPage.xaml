@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:pract4_1"
+             x:Class="pract4_1.MainPage">
+
+    <TabbedPage.Children>
+        <local:Vidhyk />
+        <local:About/>
+        <local:Contacts/>
+    </TabbedPage.Children>
+    
+</TabbedPage>

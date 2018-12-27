@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="pract4_1.About"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="About"
+    Icon="fraud_filled_48.png">
+    <ContentPage.Content>
+        <StackLayout
+            VerticalOptions="Center">
+            
+            <Label
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span
+                        Text="Я студент курсів DevMetro" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label
+            HorizontalOptions="Center"
+            VerticalOptions="Center"
+            HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span
+                        Text="Мене звати Роман"/>
+                        <Span
+                        FontAttributes="Bold,Italic"
+                        Text=", проживаю в Дрогобичі"
+                        TextColor="Green" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Image Source="fun_squirrel.jpg" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
